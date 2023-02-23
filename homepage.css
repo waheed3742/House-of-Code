@@ -1,0 +1,519 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+.topbgcolor{
+    background-image: url("colorimage.jpg");
+}
+ul li{
+    padding-right: 10px;
+}
+li a{
+    font-family: sans-serif;
+}
+.serachbar{
+    width: 100%;
+}
+.searchbar input{
+    border: none; background-color: transparent;
+}
+.searchbar input:focus-visible{
+    border:none;
+}
+.topcontainer{
+    margin-top: 10rem;
+}
+.topcontainer h1{
+    font-size: 75px;
+}
+::placeholder{
+    color: black;
+}
+.btntop{
+    padding: 16px 23px;
+    background-color: white;
+    border-radius: 0px;
+    text-align: center;
+}
+.btntop:hover{
+    background-color: #ffb8a4;
+    transition: 0.5s;
+}
+.girlimage{
+    width: 40%;
+    height: auto;
+    margin-top: 4rem;
+}
+.aboutbutton{
+    background-color: white;
+    margin-top: 20px;
+    padding: 15px 37px;
+    font-size: 16px;
+    border-radius: 0px;
+}
+.aboutbutton:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.card-img1{
+    text-align: start;
+    font-size: 53px;
+    padding-left: 19px;
+    color: tomato;
+}
+.card1{
+    background-color:  transparent;
+    color: white;
+}
+.card1{
+    border: 1px solid #8b8b8b;
+}
+.card1:hover{
+    border: 1px solid tomato;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.card-body1 p.mt-5{
+    color: tomato;
+    transform: translateY(10px);
+    transition: 0.7s;
+}
+.card-body1 p.mt-5:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(0px);
+}
+.card-body1 h3{
+    font-size: 1.53rem;
+}
+.bg2{
+    background-image: url("colorimage2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-left: 30px;
+    padding-bottom: 6rem;
+}
+.card2{
+    background-color: black;
+    color: white;
+   border-radius: 0px;
+}
+.card2:hover{
+    border: 1px solid  tomato;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card2:hover .card-img2{
+    color: white;
+    transition: 0.5s;
+    transform: translateY(0px);
+}
+.card-img2{
+    padding-left: 24px;
+    padding-top: 20px;
+    font-size: 3rem;
+    color: tomato;  
+    transform: translateY(10px);
+}
+.card-body2 p{
+margin-top: 20px;
+margin-bottom: 2rem;
+}
+.fortop{
+    position: relative;
+    top: 25%;
+}
+.forcontrolsize h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.forcontrolsize p{
+    margin-top: 2rem;
+    font-size: 18px;
+}
+.list li span i{
+    color: tomato;
+}
+.list li .span-p{
+    padding-left: 13px;
+}
+.text-center-lg{
+    color: tomato;
+}
+.ourvisionheading{
+    font-size: 4rem;   
+}
+.ourvisionicons{
+    font-size: 2.5rem;
+    color: tomato;
+}
+.cloud h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.cloud p{
+    font-size: 15px;
+}
+.ourvisionimg{
+    width: 100%;
+    height: auto;
+}
+.clients h1{
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+/*22222222222222222222222222222 Brand Slider 1111111111111111111111111111111111*/
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.slick-slide img:hover{
+    opacity: 1;
+}
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+/************************************** ourteam *********************************/
+.ourteam h1{
+    font-size: 3.5rem;
+}
+.ourteam p{
+    padding-top: 15px;
+    font-size: 15px;
+}
+.hoverarea{
+    position: absolute;
+    top: 56%;
+    left: 25%;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+    transform: translateY(-50px);
+ text-align: center;   
+}
+.ourteamhover:hover{
+    transform: translateY(-20px) ;
+    transition: 0.5s;
+}
+.ourteamhover:hover .hoverimg{
+opacity: 0.3;
+}
+.ourteamhover:hover .hoverarea{
+    opacity: 1;
+    transform: translateY(25px);
+}
+.teamicon span{
+    padding: 7px 0px;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    margin-right: 18px;
+    margin-top: 6px;
+}
+.teamicon span:hover{
+    background-color: white;
+    color: rgb(79, 79, 255);
+    transition: 0.3s;
+}
+.teamicon .pinterest{
+    padding: 7px 0px;
+    font-size: 22px;
+    background-color: black;
+    color:white;
+    border-radius: 50%;
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    margin-right: 18px;
+    margin-top: 6px;
+}
+.teamicon .pinterest:hover{
+    color: tomato;
+    background-color: white;
+    transition: 0.3s;
+}
+.article h1{
+    margin-top: 3rem; 
+    font-size: 4rem;
+}
+.card3{
+    background-color: transparent;
+    border: none;
+}
+.bg3{
+    background-image: url("colorimage3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5rem;
+}
+.newsletter h1{
+    font-size: 3rem;
+}
+.email input{
+    padding: 23px;
+    width: 40% !important;
+    margin-left: 24%;
+}
+.email button{
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+}
+.email button:hover{
+    color: white;
+    background-color: rgb(75, 68, 68);
+}
+
+.fotterul{
+    list-style: none;
+    padding-left: 0px;
+    line-height: 3rem;
+    margin-top: 2rem;
+}
+.fotterul li:hover{
+    color: tomato;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.fotterspan{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: tomato;
+    text-align: center;
+    padding-top: 6px;
+    margin-right: 18px;
+    font-size: 25px;
+    border-radius: 50px;
+}
+.fotterspan:hover{
+    color: white;
+    background-color: tomato;
+    transition: 0.2s;
+    cursor: pointer;
+}
+@media only screen and (min-width:320px) and (max-width:425px) {
+    .topcontainer h1{
+        font-size: 50px;
+    }
+    .fordisplay{
+        display: none;
+    }
+   .girlimage{
+        width: 70%;
+        height: auto;
+        margin-top: 2rem;
+    }
+    .forcontrolsize h1{
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    .ourvisionheading{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .ourvision-p{
+        text-align: center;
+    }
+    .ourvisionicons{
+        text-align: center;
+    }
+    .cloud h3{
+        text-align: center;
+    }
+    .cloud p{
+        text-align: center;
+        color: #b9b9b9;
+    }
+    .clients h1{
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    .ourteam h1{
+        font-size: 2.5rem;
+    }
+    .hoverarea{
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        text-align: center;
+        opacity: 0;
+        transition: 0.5s;
+        cursor: pointer;
+        transform: translateY(-50px);
+        
+    }
+    .article h1{
+        margin-top: 3rem; 
+        font-size: 2rem;
+    }
+    .newsletter h1{
+        font-size: 2rem;
+    }
+    .email input{
+        padding: 23px;
+        width: auto !important;
+        margin-left: auto;
+    }
+    .email button{
+        background-color: black;
+        color: white;
+        margin-left: 6px;
+        margin-top: 8px;
+    }
+
+}
+@media only screen and (min-width:768px) and (max-width:769px) {
+    .topcontainer h1{
+        font-size: 60px;
+    }
+    .ourvisionheading{
+        font-size: 3rem;
+        
+    }
+}
+@media only screen and (max-width:768px) {
+    .button{
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width:1024px) {
+    .text-center-lg{
+        text-align: center;
+        color: tomato;
+    }
+    .ourvisionimg{
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (max-width:1320px) {
+
+    .bg2{
+    background-image: url("colorimage2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-left: 30px;
+    height: auto;
+}
+.fortop{
+    position: relative;
+    top: 0%;
+}
+}
